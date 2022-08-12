@@ -9,7 +9,7 @@ def eval_open_ended_kss3():
 
     mecab_available = False
     try:
-        from mecab import MeCab  # noqa
+        from konlpy.tag import Mecab  # noqa
 
         mecab_available = True
     except ImportError:

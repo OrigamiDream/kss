@@ -85,9 +85,9 @@ class MecabTokenizer:
     """
 
     def __init__(self):
-        from mecab import MeCab
+        from konlpy.tag import Mecab
 
-        self.mecab = MeCab()
+        self.mecab = Mecab()
 
     def pos(
         self,

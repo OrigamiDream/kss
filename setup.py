@@ -5,6 +5,7 @@ required = [
     "emoji==1.2.0",
     "regex",
     "more_itertools",
+    "konlpy",
 ]
 
 
